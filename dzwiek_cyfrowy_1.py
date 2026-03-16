@@ -16,10 +16,10 @@ time_vec = np.arange(0, sine_time, 1/fs)
 
 sine = generate_sine(frequency, sine_time)
 
-#plt.plot(time_vec, sine)
-#plt.xlabel("Time [s]")
-#plt.ylabel("Amplitude")
-#plt.show()
+plt.plot(time_vec, sine)
+plt.xlabel("Time [s]")
+plt.ylabel("Amplitude")
+plt.show()
 
 #zad 3.
 
@@ -27,16 +27,16 @@ sine_reversed = generate_sine(frequency, sine_time, np.pi)
 
 sine_add = sine + sine_reversed
 
-#plt.plot(time_vec, sine_add)
+plt.plot(time_vec, sine_add)
 
 #skalowanie osi:
-#ax= plt.gca()
-#ax.set_ylim([-1, 1])
+ax= plt.gca()
+ax.set_ylim([-1, 1])
 
 
-#plt.xlabel("Time [s]")
-#.ylabel("Amplitude")
-#plt.show()
+plt.xlabel("Time [s]")
+plt.ylabel("Amplitude")
+plt.show()
 
 #zad. 4.
 
