@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PyCharmMiscProject.iml" filepath="$PROJECT_DIR$/PyCharmMiscProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../PycharmProjects/digital_sound_lab2/.idea/digital_sound_lab2.iml" filepath="$PROJECT_DIR$/../PycharmProjects/digital_sound_lab2/.idea/digital_sound_lab2.iml" />
     </modules>
   </component>
 </project>

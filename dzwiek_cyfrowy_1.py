@@ -41,6 +41,19 @@ plt.show()
 #zad. 4.
 
 
+
+sine_add = sine + sine
+
+plt.plot(time_vec, sine_add)
+
+#skalowanie osi
+ax = plt.gca()
+ax.set_ylim([-2, 2])
+
+plt.xlabel("Time [s]")
+plt.ylabel("Amplitude")
+plt.show()
+
 #zad. 5.
 sine1 = generate_sine(500, 2)
 sd.play(sine1, fs)
